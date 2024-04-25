@@ -1,8 +1,9 @@
 
 # CodePath AWS S3 HoneyBucket Incident Analysis
 ## Description
+![](https://mma.prnewswire.com/media/890598/CodePath_Logo.jpg?p=publish)  <br /><br />
 Welcome to the GitHub repository for Team 32's final project in the [CodePath](https://www.codepath.org/) course, [Cybersecurity 102 - Intermediate Cybersecurity](https://www.codepath.org/courses/cybersecurity). This project presents a thorough analysis and strategic response to simulated cybersecurity threats identified in AWS S3 HoneyBucket Logs. Leveraging the AWS IRP-DataAccess framework, our project demonstrates the effective use of data from AWS S3 HoneyBuckets to improve security measures and incident response capabilities.  
-![](https://mma.prnewswire.com/media/890598/CodePath_Logo.jpg?p=publish)
+
 
 
 ## Dataset Used
