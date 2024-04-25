@@ -1,0 +1,15 @@
+Dataset Description
+This dataset represents adversaries trying to scan , discover and access open S3 honeybucket based on known hostname patterns. in this case honeybucket microsoft-devtest.s3.amazonaws.com.
+
+
+HeadBucket (318 occurrences):
+Purpose: This operation is used to retrieve the metadata of a bucket without returning any actual data from within the bucket. It's often used to check if the bucket exists and the requester has permission to access it.
+Concerns: Frequent use could suggest scanning activities, where an adversary checks for the existence or accessibility of various buckets.
+
+ListObjects (276 occurrences):
+Purpose: This API call lists all the objects within a bucket. It's a common operation in both legitimate management and in reconnaissance activities by attackers trying to discover what data is available.
+Concerns: If unauthorized, this could be a part of reconnaissance activity, as an attacker may be trying to enumerate(establish the number of) the contents of the bucket to plan further actions.
+
+PutObject (8 occurrences):
+Purpose: As discussed, this operation uploads a new object to a bucket.
+Concerns: While the count is relatively low, unauthorized PutObject events are highly concerning because they could indicate attempts to store illicit data in your bucket, overwrite existing files, or use the bucket for data exfiltration.
