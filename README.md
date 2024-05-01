@@ -7,7 +7,7 @@ Welcome to the GitHub repository for Team 32's final project in the [CodePath](h
 
 
 ## Dataset Used
-<img src="https://securitydatasets.com/_static/logo.png" width="150" height="100"> </img>  
+<img src="https://securitydatasets.com/_static/logo.png" width="100" height="100"> </img>  
 [Security Datasets: AWS S3 HoneyBucket Logs](https://securitydatasets.com/notebooks/atomic/aws/discovery/SDAWS-2202181000.html)
 - The Security Datasets project is an open-source initiative that contributes malicious and benign datasets, from different platforms, to the infosec community to expedite data analysis and threat research.
 - This dataset represents adversaries trying to scan, discover and access open S3 honeybucket based on known hostname patterns
@@ -15,7 +15,7 @@ Welcome to the GitHub repository for Team 32's final project in the [CodePath](h
 
 
 ## Playbook Used
-<img src="https://avatars.githubusercontent.com/u/8931462?s=200&v=4" width="150" height="100"> </img>  
+<img src="https://avatars.githubusercontent.com/u/8931462?s=200&v=4" width="100" height="100"> </img>  
 [AWS Incident Response Runbook Samples: IRP-DataAccess.md](https://github.com/aws-samples/aws-incident-response-playbooks/blob/master/playbooks/IRP-DataAccess.md)<br /><br />
 **Playbook Outline**
   1. Gather Evidence
