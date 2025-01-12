@@ -1,4 +1,4 @@
-
+ 
 # CodePath AWS S3 HoneyBucket Incident Analysis
 ## Description
 ![](https://mma.prnewswire.com/media/890598/CodePath_Logo.jpg?p=publish)  <br /><br />
